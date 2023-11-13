@@ -9,12 +9,46 @@
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
+<div class="container-fluid"> <!-- Use container-fluid for full-width -->
+        <div class="row">
+            <div class="col-md-12"> <!-- Full width column -->
+                <!-- Bootstrap Card -->
+                <div class="card full-width-card">
+                 
+
+                    <model-viewer src="https://cdn.glitch.global/4b1fdab9-782f-4caa-88d6-5ed3d1816286/Cabinet.glb?v=1699703383781" 
+                        ar ar-modes="scene-viewer webxr quick-look" camera-controls poster="poster.webp" shadow-intensity="1">
+                        <div class="progress-bar hide" slot="progress-bar">
+                            <div class="update-bar"></div>
+                        </div>
+                  
+                    <div class="card-body">
+                      <h5 class="card-title">Upper Kitchen Cabinet</h5>
+                      <br class="card-text">Width: 25in<br>Height: 25in<br>Panel Thickness: .75in<br>
+                      <label for="dog-names">Color:</label> 
+                      <select name="dog-names" id="dog-names"> 
+                          <option value="rigatoni">White</option> 
+                          <option value="dave">Blue</option> 
+                          <option value="pumpernickel">Black</option> 
+                          <option value="reeses">Red</option> 
+                      </select>
+                    
+                  
+                        
+                      </p>
+                      <div class="text-right">
+                        <a href="#" class="btn btn-dark">Update</a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
-
-<model-viewer src="https://cdn.glitch.global/4b1fdab9-782f-4caa-88d6-5ed3d1816286/Cabinet.glb?v=1699703383781" 
+@* <model-viewer src="https://cdn.glitch.global/4b1fdab9-782f-4caa-88d6-5ed3d1816286/Cabinet.glb?v=1699703383781" 
     ar ar-modes="scene-viewer webxr quick-look" camera-controls poster="poster.webp" shadow-intensity="1">
     <div class="progress-bar hide" slot="progress-bar">
         <div class="update-bar"></div>
     </div>
-    <button slot="ar-button" id="ar-button">
+    <button slot="ar-button" id="ar-button"> *@
