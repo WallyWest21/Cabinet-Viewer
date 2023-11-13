@@ -1,0 +1,5 @@
+{
+    "appService.preDeployTask": "publish-release",
+    "appService.deploySubpath": "CabinetViewer\\bin\\Release\\net7.0\\publish",
+    "appService.defaultWebAppToDeploy": "/subscriptions/cb88a823-9944-4a6c-81f6-cbc4d1c1300c/resourceGroups/appsvc_windows_centralus/providers/Microsoft.Web/sites/CabinetViewer"
+}

@@ -1,0 +1,2 @@
+G:\My Drive\Programming\Web\Cabinet Viewer\cabinetviewer\bin\Debug\net7.0\CabinetViewer.exe
+G:\My Drive\Programming\Web\Cabinet Viewer\cabinetviewer\bin\Debug\net7.0\CabinetViewer.dll
